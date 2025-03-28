@@ -10,3 +10,6 @@
 [submodule "packages/contracts/lib/openzeppelin-contracts"]
 	path = packages/contracts/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "packages/contracts/lib/permit2-nonce-finder"]
+	path = packages/contracts/lib/permit2-nonce-finder
+	url = https://github.com/flood-protocol/permit2-nonce-finder

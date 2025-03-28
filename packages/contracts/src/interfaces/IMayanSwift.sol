@@ -12,18 +12,18 @@ interface IMayanSwift {
     event OrderRefunded(bytes32 key, uint256 netAmount);
 
     enum Status {
-		CREATED,
-		FULFILLED,
-		UNLOCKED,
-		CANCELED,
-		REFUNDED
-	}
+        CREATED,
+        FULFILLED,
+        UNLOCKED,
+        CANCELED,
+        REFUNDED
+    }
 
     struct Order {
-		Status status;
-		uint64 amountIn;    
-		uint16 destChainId;
-	}
+        Status status;
+        uint64 amountIn;
+        uint16 destChainId;
+    }
 
     struct OrderParams {
         bytes32 trader;
@@ -42,6 +42,8 @@ interface IMayanSwift {
     }
 
     function createOrderWithEth(OrderParams memory params) external payable returns (bytes32 orderHash);
-    function createOrderWithToken(address tokenIn, uint256 amountIn, OrderParams memory params) external returns (bytes32 orderHash);
+    function createOrderWithToken(address tokenIn, uint256 amountIn, OrderParams memory params)
+        external
+        returns (bytes32 orderHash);
     function getOrders(bytes32[] memory orderHashes) external view returns (Order[] memory);
 }
