@@ -1,0 +1,15 @@
+[submodule "packages/contracts/lib/forge-std"]
+	path = packages/contracts/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "packages/contracts/lib/permit2"]
+	path = packages/contracts/lib/permit2
+	url = https://github.com/Uniswap/permit2
+[submodule "packages/contracts/lib/swap-bridge"]
+	path = packages/contracts/lib/swap-bridge
+	url = https://github.com/mayan-finance/swap-bridge
+[submodule "packages/contracts/lib/openzeppelin-contracts"]
+	path = packages/contracts/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "packages/contracts/lib/permit2-nonce-finder"]
+	path = packages/contracts/lib/permit2-nonce-finder
+	url = https://github.com/flood-protocol/permit2-nonce-finder

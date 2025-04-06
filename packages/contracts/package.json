@@ -1,0 +1,32 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mayanfinance/swap-sdk": "^10.4.0",
+    "@mayanfinance/wormhole-sdk-route": "^1.6.0",
+    "@pythnetwork/hermes-client": "^2.0.0",
+    "@pythnetwork/pyth-sdk-solidity": "^4.0.0",
+    "@wormhole-foundation/sdk": "^1.0.0",
+    "@wormhole-foundation/sdk-connect": "^1.0.0",
+    "@wormhole-foundation/sdk-evm": "^1.0.0",
+    "@wormhole-foundation/sdk-solana": "^1.0.0",
+    "@wormhole-foundation/wormhole-query-sdk": "^0.0.14",
+    "axios": "^1.8.4",
+    "viem": "^2.23.10"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3"
+  }
+}

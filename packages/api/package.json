@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mayanfinance/swap-sdk": "^10.4.0",
+    "@wormhole-foundation/sdk": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "firebase": "^11.6.0",
+    "next": "15.2.4",
+    "viem": "^2.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "typescript": "^5"
+  }
+}
