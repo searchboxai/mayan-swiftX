@@ -18,7 +18,6 @@ export async function getOrder(orderId: string): Promise<PartiallyBuiltOrder | n
   return parseBigInts(data) as PartiallyBuiltOrder;
 }
 
-// Retrieve all orders from the "orders" collection
 export async function getOrders(): Promise<PartiallyBuiltOrder[]> {
   const ordersCol = collection(db, "orders");
   const snapshot = await getDocs(ordersCol);
