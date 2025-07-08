@@ -10,6 +10,8 @@ With Mayan-swiftX, users can enhance their trading strategies by leveraging thes
 
 ## How It Works (Users)
 
+![Order Flow](docs/mermaid-diagram-2025-07-09-002648.png)
+
 1. A user signs a custom ERC20 order and sends it to the Searchbox API.
 2. Anyone can call this API to retrieve the order or orders, validate them, and create them on Mayan Swift.
 3. The executor is compensated, and the user receives the requested tokens.
