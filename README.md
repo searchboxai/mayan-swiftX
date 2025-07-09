@@ -102,3 +102,13 @@ Check if a specific chain is integrated with the system.
 curl https://mayan-swift-x.vercel.app/api/isIntegratedChain?chain=base
 ```
 
+### 8. Execution
+
+
+**Base Contract Address:** `0x5D9C504b3F02611912Af20ED39E60C539621E678`
+
+**Example Executions:**  
+- [🔗 Tx 1](https://explorer.mayan.finance/tx/SWIFT_0xe807b1deafa284cfa32d11dff09d1f1123d6c4627036aa12befb8160c52eadb6)
+- [🔗 Tx 2](https://explorer.mayan.finance/tx/SWIFT_0x2779627cbc28d1806bbb9e6c5a68a8e03e228608e13da258bc167750f3af1b79)
+- [🔗 Tx 3](https://explorer.mayan.finance/tx/SWIFT_0xb25fd0a649054995c5e468a6dc3356b2fbaa795de68b3f9349049440c2baa8e9)
+- [🔗 Tx 4](https://explorer.mayan.finance/tx/SWIFT_0xc849751246bb2ad5a5f0f7c4c2dbe9da376406796b9dbd3e7c47ff6672ee13e8)
