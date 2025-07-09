@@ -16,9 +16,8 @@ With Mayan-swiftX, users can enhance their trading strategies by leveraging thes
 2. Anyone can call this API to retrieve the order or orders, validate them, and create them on Mayan Swift.
 3. The executor is compensated, and the user receives the requested tokens.
 
-⚠️ Note: The POST endpoint for submitting signed ERC20 orders is intentionally not publicly exposed at this stage. While the backend API supports signed order intake, it is currently used internally to prevent abuse.
-Signed messages are costless to produce and can be easily spammed at scale. All other endpoints remain publicly accessible.
-To use the system, build an order with the API off-chain and execute it directly against the smart contract.
+⚠️ Note: The POST endpoint for submitting signed ERC20 orders is intentionally not publicly exposed, to prevent spam. Build an order with the API off-chain and execute it directly against the smart contract.
+
 
 ## How It Works (Developers)
 
