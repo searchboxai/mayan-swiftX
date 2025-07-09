@@ -55,9 +55,7 @@ mayan-swiftX/
 Retrieve a conditional order based on specified parameters.
 
 #### Example:
-```bash
-curl "https://mayan-swift-x.vercel.app/api/getCondOrder?amount=2000000&tokenIn=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&tokenOut=7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs&sourceChain=base&destChain=solana&destAddr=8fFsLKGv5sizL97mjtrVvPu9trQAHZx5HBeLGzLVAt2o&owner=0x1F5781Fce9Ee70eC54047A219c9F128972582eB3&minExecutionPrice=180000000000&maxExecutionPrice=200000000000&minExecutionTime=1743838979&maxExecutionTime=1743859979&oracleFeedId=0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace"
-```
+[https://github.com/searchboxai/mayan-swiftX/blob/main/packages/api/src/example/conditionalOrders.ts]
 
 ### 2. Get Gasless Conditional Tokens
 Retrieve tokens eligible for gasless conditional orders on a specific chain.
@@ -87,9 +85,7 @@ curl https://mayan-swift-x.vercel.app/api/getGaslessTimedTokens?chain=base
 Retrieve an instant order based on parameters such as amount, tokens, chains, and destination address.
 
 #### Example:
-```bash
-curl "https://mayan-swift-x.vercel.app/api/getInstantOrder?amount=2000000&tokenIn=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&tokenOut=BUYHeMJ668Sc9zH7mKUhSFDQU4oCkeFrkFsSmUjXpump&sourceChain=base&destChain=solana&destAddr=8fFsLKGv5sizL97mjtrVvPu9trQAHZx5HBeLGzLVAt2o&owner=0x1F5781Fce9Ee70eC54047A219c9F128972582eB3"
-```
+[https://github.com/searchboxai/mayan-swiftX/blob/main/packages/api/src/example/conditionalOrders.ts]
 
 ### 6. Get Integrated Chains
 Retrieve a list of chains integrated with the system.
